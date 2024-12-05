@@ -1,0 +1,35 @@
+{
+  "chart": {
+    "title": "Primary energy consumption",
+    "subtitle": "[Primary energy](#dod:primaryenergy) consumption is measured in [terawatt-hours](#dod:watt-hours), using the [substitution method](#dod:substitutionmethod).",
+    "note": "Data includes only commercially-traded fuels (coal, oil, gas), nuclear and modern renewables. It does not include traditional biomass.",
+    "citation": "U.S. Energy Information Administration (2023); Energy Institute - Statistical Review of World Energy (2024)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/primary-energy-cons?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Serbia",
+      "Africa",
+      "Croatia"
+    ]
+  },
+  "columns": {
+    "Primary energy consumption (TWh)": {
+      "titleShort": "Primary energy consumption",
+      "titleLong": "Primary energy consumption",
+      "descriptionShort": "Measured in terawatt-hours.",
+      "descriptionKey": [],
+      "descriptionProcessing": "- Primary energy consumption data was compiled based on two key data sources: [Energy Institute (EI) Statistical Review of World Energy](https://www.energyinst.org/statistical-review), and [International energy data from the U.S. Energy Information Administration (EIA)](https://www.eia.gov/international/data/world/total-energy/more-total-energy-data). EI provides the longest and most up-to-date time-series of primary energy. However, it does not provide data for all countries. We have therefore supplemented this dataset with energy data from the EIA. Where EI provides data for a given country, this data is adopted; for countries where this data is missing, we rely on EIA energy figures.\n- Per capita figures have been calculated using a population dataset that is based on [different sources](https://ourworldindata.org/population-sources).\n- To calculate energy per unit of GDP, we divide by total real GDP figures from [the Maddison Project Database](https://ourworldindata.org/grapher/gdp-maddison-project-database).\n",
+      "shortUnit": "TWh",
+      "unit": "terawatt-hours",
+      "timespan": "1965-2023",
+      "type": "Numeric",
+      "owidVariableId": 943789,
+      "shortName": "primary_energy_consumption__twh",
+      "lastUpdated": "2024-06-20",
+      "nextUpdate": "2025-06-20",
+      "citationShort": "U.S. Energy Information Administration (2023); Energy Institute - Statistical Review of World Energy (2024) – with major processing by Our World in Data",
+      "citationLong": "U.S. Energy Information Administration (2023); Energy Institute - Statistical Review of World Energy (2024) – with major processing by Our World in Data. “Primary energy consumption” [dataset]. U.S. Energy Information Administration, “International Energy Data”; Energy Institute, “Statistical Review of World Energy” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/943789.metadata.json"
+    }
+  },
+  "dateDownloaded": "2024-11-29"
+}
